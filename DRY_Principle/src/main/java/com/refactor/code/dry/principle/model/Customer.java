@@ -9,6 +9,6 @@ public class Customer {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Enumerated(EnumType.STRING )
-    private OrderStatues statues;
+    @Enumerated(EnumType.STRING)
+    private OrderStatus statues;
 }
