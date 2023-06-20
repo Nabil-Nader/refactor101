@@ -6,6 +6,7 @@ import com.refactor.code.smells.duplicate.dto.Response;
 import com.refactor.code.smells.duplicate.model.Product;
 import com.refactor.code.smells.duplicate.repository.ProductRepository;
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +14,7 @@ import java.util.Optional;
 
 
 @Service
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class ProductServiceImpl  implements  ProductService{
 
 	private final ProductRepository productRepository;
