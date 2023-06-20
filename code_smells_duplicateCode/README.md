@@ -10,10 +10,10 @@
 	  messages based on the type of exception that is thrown
 	 
 
-# Solution 
-    - To have suche a generic behaiver in the controller we added a GlobalExceptionHandler to handel all error 
-    - Remove un wanted package and classes [boilplate code ]
-    - Add A generic class to handdle all the Response Request we will call it Response
+# Task lists
+    [x] To have suche a generic behaiver in the controller we added a GlobalExceptionHandler to handel all error 
+    [x] Remove un wanted package and classes [boilplate code ]
+    [x] Add A generic class to handdle all the Response Request we will call it Response
 
 
 
