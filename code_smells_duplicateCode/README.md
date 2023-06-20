@@ -12,22 +12,22 @@
 
 # Solution 
     - To have suche a generic behaiver in the controller we added a GlobalExceptionHandler to handel all error 
-    -  Remove un wanted package and classes [boilplate code ]
+    - Remove un wanted package and classes [boilplate code ]
     - Add A generic class to handdle all the Response Request we will call it Response
 
-'''
-this will be a simple view of any output 
 
+
+```json
 {
-"timestamp": 1658551020,
-"status": 400,
-"error": "Bad Request",
-"exception": "org.springframework.http.converter.HttpMessageNotReadableException",
-"message":"Invalid product",
-"data": "/protract"
+    "timestamp": "2023-06-20 11:58:16.042",
+    "message": "There is no prosecutor in our database",
+    "success": false,
+    "status": 400,
+    "data": "/refactor/products",
+    "debugMessage": "java.lang.RuntimeException"
 }
+```
 
-'''
 
     - As for the Message we will handel this by using Resource Budle to dispplay any message whith a any language
     - This is done my having a Translator to get the message in budle depend on the langauge id, english will be a default.
