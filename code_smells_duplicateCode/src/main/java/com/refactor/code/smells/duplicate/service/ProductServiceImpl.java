@@ -24,7 +24,7 @@ public class ProductServiceImpl  implements  ProductService{
 		Optional<Product> optional = productRepository.findById(dto.getId());
 
 		if(optional.isEmpty()){
-			throw new RuntimeException(Translator.getMessage("invalid_product",1L))
+			throw new RuntimeException(Translator.getMessage("invalid_product",1L));
 		}else {
 			Product product = optional.get();
 
