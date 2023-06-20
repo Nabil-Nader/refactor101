@@ -5,10 +5,10 @@
 ## Steps -> compare the main branch with this branch to see different
  
 ## Problem 
-	'''
+	
 	  As we can see, the switch statement is being used to return different error
-	 messages based on the type of exception that is thrown
-	 '''
+	  messages based on the type of exception that is thrown
+	 
 
 # Solution 
     - To have suche a generic behaiver in the controller we added a GlobalExceptionHandler to handel all error 
